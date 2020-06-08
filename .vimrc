@@ -3,7 +3,7 @@
 set nocompatible
 
 " Activate color-scheme
-colo sonokai
+colo nnkd
 
 " Hack for tmux
 set background=dark
