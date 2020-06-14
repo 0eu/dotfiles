@@ -68,7 +68,7 @@ window:
 font:
   # The normal (roman) font face to use.
   normal:
-    family: "Fira Mono"
+    family: "JetBrains Mono"
     style: Regular
     # family: monospace # should be "Menlo" or something on macOS.
     # Style can be specified to pick a specific face.
@@ -76,7 +76,7 @@ font:
 
   # The bold font face
   bold:
-    family: "Fira Mono"
+    family: "JetBrains Mono"
     style: Bold
     # family: monospace # should be "Menlo" or something on macOS.
     # Style can be specified to pick a specific face.
@@ -84,14 +84,14 @@ font:
 
   # The italic font face
   italic:
-    family: "Fira Mono"
+    family: "JetBrains Mono"
     style: Italic
     # family: monospace # should be "Menlo" or something on macOS.
     # Style can be specified to pick a specific face.
     # style: Italic
 
   # Point size of the font
-  size: 12.0
+  size: 13.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
