@@ -217,6 +217,9 @@ au FileType rust nmap <leader>rx <Plug>(rust-doc)
 au FileType rust nmap <leader>rd <Plug>(rust-def)
 au FileType rust nmap <leader>rs <Plug>(rust-def-split)
 
+" Rust
+let g:rustfmt_autosave = 1
+
 
 " ALE
 let g:airline#extensions#ale#enabled = 1
