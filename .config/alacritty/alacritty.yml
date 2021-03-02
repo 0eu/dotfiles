@@ -196,3 +196,11 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
 hide_cursor_when_typing: false
+
+# Run tmux on start
+shell:
+  program: /bin/zsh
+  args:
+   - -l
+   - -c
+   - "tmux attach || tmux new -s main"
